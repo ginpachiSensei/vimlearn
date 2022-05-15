@@ -16,7 +16,7 @@ function activate(context) {
   // Now provide the implementation of the command with  registerCommand
   // The commandId parameter must match the command field in package.json
   let disposable = vscode.commands.registerCommand(
-    "vimlearn.helloWorld",
+    "vimlearn.vimLearn",
     function () {
       vscode.commands.executeCommand(
         "vscode.open",
