@@ -1,0 +1,49 @@
+Movemement
+key    effect
+
+h           Move cursor to left
+j           Move down
+k           Move up
+l           Move left
+i           Insert mode
+<Esc>       Normal mode
+w           Move to begining of next word
+b           Move to begining of previous word
+e           Move to end of next word
+ge          Move to end of previous word
+0           Move to begining of line
+$           Move to end of line
+gg          Move to begining of file
+G           Move to end of file
+f{char}     Move to next char
+F{char}     Move to previous char
+t{char}     Move to next char
+T{char}     Move to previous char
+}           jump a paragraph downward
+{           jump a paragraph upward
+gd          go to defination
+gf          go to file
+gg          go to begining of file
+G           go to end of file
+d           delete
+y           yank(copy)
+p           paste
+g~          toggle case
+dd          delete line
+cc          change a line
+yy          yank(copy) a line
+Y           yank(copy) line       
+u           undo
+C-R         redo
+{count}d    delete {count} lines
+{count}y    yank(copy) {count} lines
+{count}p    paste {count} lines
+{count}u    undo {count} times
+a           go to insert menu after cursor
+I           go to insert menu after cursor
+o           insert a new line below and go in insert mode
+O           insert a new line above and go in insert mode
+gi          go to last place you left insert menu
+v           go to visual mode
+V           go to visual line mode
+

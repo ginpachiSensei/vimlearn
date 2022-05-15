@@ -20,7 +20,7 @@ function activate(context) {
     function () {
       vscode.commands.executeCommand(
         "vscode.open",
-        vscode.Uri.joinPath(context.extensionUri, "res/test.md"),
+        vscode.Uri.joinPath(context.extensionUri, "res/cheatsheet.txt"),
         vscode.ViewColumn.Beside
       );
     }
